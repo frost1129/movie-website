@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Time</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" id="logo">MOVIE TIME</a>
+        <nav>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Movie</a></li>
+                <li><a href="#">Series</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <a class="btn-sign-in" href="#">
+            <button>Sign In</button>
+        </a>
+
+        <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <nav class="mobile-nav">
+        <a href="index.html">Home</a>
+        <a href="#">Movie</a>
+        <a href="#">Series</a>
+        <a href="#">About</a>
+        <a href="#">Sign In</a>
+    </nav>
+
+
+    <div class="main-content">
+        <!-- FEATURED MOVIE -->
+        <div class="featured-movie">
+            <img class="featured-title" src="images/cover-title.png" alt="">
+            <p class="featured-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, exercitationem eligendi quo illo fuga quia at sequi animi dicta eaque?</p>
+            <button class="featured-btn">Watch Now</button>
+        </div>
+
+        <div class="movie-list">
+            <div class="movie-list-title">TRENDING</div>
+            <div class="list-wrapper">
+                <div class="trending-list">
+                    <div class="trending-item">
+                        <img src="images/trending1.jpg" alt="movie poster" class="trending-img">
+                        <span class="trending-item-title">the half of it</span>
+                        <p class="trending-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corporis.</p>
+                        <button class="trending-item-btn">Watch</button>
+                    </div>
+                    <div class="trending-item">
+                        <img src="images/trending3.jpg" alt="movie poster" class="trending-img">
+                        <span class="trending-item-title">inside job</span>
+                        <p class="trending-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corporis.</p>
+                        <button class="trending-item-btn">Watch</button>
+                    </div>
+                    <div class="trending-item">
+                        <img src="images/trending4.jpg" alt="movie poster" class="trending-img">
+                        <span class="trending-item-title">Gravity Falls</span>
+                        <p class="trending-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corporis.</p>
+                        <button class="trending-item-btn">Watch</button>
+                    </div>
+                    <div class="trending-item">
+                        <img src="images/trending5.jpg" alt="movie poster" class="trending-img">
+                        <span class="trending-item-title">F.R.I.E.N.D.S</span>
+                        <p class="trending-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corporis.</p>
+                        <button class="trending-item-btn">Watch</button>
+                    </div>
+                    <div class="trending-item">
+                        <img src="images/trending6.jpg" alt="movie poster" class="trending-img">
+                        <span class="trending-item-title">Breaking Bad</span>
+                        <p class="trending-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corporis.</p>
+                        <button class="trending-item-btn">Watch</button>
+                    </div>
+                    <div class="trending-item">
+                        <img src="images/trending2.jpg" alt="movie poster" class="trending-img">
+                        <span class="trending-item-title">Spider-man: No Way Home</span>
+                        <p class="trending-item-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, corporis.</p>
+                        <button class="trending-item-btn">Watch</button>
+                    </div>
+                </div>
+                <img class="arrow go-right" src="icons/right-arrow.svg" alt="arrow">
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+        <div class="social-media">
+            <img class="social-icon" src="icons/facebook.svg" alt="Facebook Page">
+            <img class="social-icon" src="icons/instagram.svg" alt="Instagram Page">
+            <img class="social-icon" src="icons/github.svg" alt="Github Page">
+        </div>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Movie</a></li>
+            <li><a href="#">Series</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+
+        <p class="copyright">Linh Vũ @ 2022</p>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="app.js"></script>
+</body>
+</html>
