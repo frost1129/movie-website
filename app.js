@@ -20,5 +20,16 @@ $(document).ready(function() {
             $(".mobile-nav").addClass("is-active");
         }
     })
-
+    
+    // scroll-bar
+    $(document).scroll(function() {
+        var scrollProgress = $(".progress");
+        var progressValue = $(".progress-value");
+        var pos = $(document).scrollTop();
+        var calcHeight = $(document).height() - $(window).height();
+        var scrollValue = Math.round(pos * 100 / calcHeight);
+        
+        scrollProgress.css("background", "conic-gradient(#e70634 " + scrollValue + "%, #2b2f38 " + scrollValue + "%)");
+    })
 })
+
