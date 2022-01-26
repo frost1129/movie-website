@@ -18,9 +18,13 @@ $(document).ready(function() {
    
     // movie-slider
     var sliderMain = $(".trending-list");
-    $(".go-right").click(function() {
+    $(".go-right").click(sliderMove)
+
+    // auto-slide
+    timer = setInterval(sliderMove, 4500);
+    function sliderMove() {
         sliderMain.append($(".trending-item:first"));
-    })
+    }
 
     // responsive hamburger menu
     $(".hamburger").click(function() {
