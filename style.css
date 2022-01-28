@@ -532,11 +532,11 @@ button:hover {
         height: 50vh;
     }
     .featured-title {
-        width: 300px;
+        width: 100%;
     }
     .featured-des {
         color: white;
-        width: 400px;
+        width: 100%;
     }
     .movie-list-title {
         color: white;
